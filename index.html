@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1>My Todo App</h1>
 
+      <div class="todo-input-area">
+        <input
+          id="todoInput"
+          type="text"
+          placeholder="输入待办事项..."
+          aria-label="待办事项"
+        />
+        <button id="addBtn" type="button">添加</button>
+      </div>
+
+      <ul id="todoList" class="todo-list" aria-live="polite"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
